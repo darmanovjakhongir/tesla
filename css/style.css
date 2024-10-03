@@ -1,0 +1,214 @@
+@import url("https://fonts.gstatic.com/s/mplus1/v7/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSa79x5MsnDAEOs0j-YDECGQpaShnmlwsXQ.0.woff2");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS 1", sans-serif;
+  scroll-behavior: smooth;
+  letter-spacing: 1px;
+}
+:root {
+  --font-color: #4c4b4b;
+  --font-weight: 600;
+}
+.teslaLogo {
+  height: 20px;
+  width: 120px;
+  margin: 1rem 0 0 3.5rem;
+}
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: none;
+  align-items: center;
+  position: fixed;
+  display: flex;
+}
+.center-nav {
+  height: 2rem;
+  flex: 8;
+}
+.right-nav {
+  flex: 3;
+  margin: 0px;
+  display: flex;
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list {
+  margin: 0 0.5rem;
+}
+.nav-list a {
+  text-decoration: none;
+  width: 2rem;
+  color: #000000;
+  padding: 6px 7px;
+  font-weight: var(--font-weight);
+  font-size: 1rem;
+  font-stretch: expanded;
+  letter-spacing: 1px;
+}
+.nav-list a:hover {
+  background-color: #efe8e8fb;
+  border-radius: 10px;
+}
+.vcontainer {
+  width: 100%;
+  height: 100%;
+}
+.vcontainer video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+.header-container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  text-align: center;
+}
+.header-container .buttons {
+  margin: 45vh;
+}
+.header-container .header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000000;
+  font-family: "M PLUS 1", sans-serif;
+  font-stretch: expanded;
+}
+.header-container p {
+  color: #000000;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+.header-container p a {
+  color: #808080;
+  font-size: 1rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  background-color: #3b3f43;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btn2 {
+  background-color: #f2f6fa;
+  color: #413f3f;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.model3-container {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.background-clip {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+.cybertruck-container {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.cybertruck-container .header-container .header {
+  font-size: 2.5rem;
+  color: #000000;
+  font-family: "Cyberpunk Sealion", sans-serif;
+  font-stretch: expanded;
+}
+.cybertruck-container .btn1 {
+  background-color: #101011;
+  color: #4d4d4e;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.cybertruck-container .btn2 {
+  background-color: #101011;
+  color: #4d4d4e;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.solarpanels-container {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.solarpanels-container .header-container .header {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "M PLUS 1", sans-serif;
+  font-stretch: expanded;
+}
+.solarpanels-container .header-container p a {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.accessories-container {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.accessories-container .buttons a {
+  margin: 40px;
+  height: 40px;
+  width: 18rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accessories-container .btn1 {
+  background-color: #ffffff;
+  color: #413f3f;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.footer {
+  background-color: #000000;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer p {
+  margin-bottom: 10px;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
